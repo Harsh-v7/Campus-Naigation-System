@@ -4,7 +4,7 @@
 
 The Campus Navigation System is a C program that utilizes the Floyd-Warshall algorithm to find the optimal route and total distance between two locations on a campus map. The program reads location and route information from an external file, allowing users to define the campus layout dynamically.
 
-## Features
+## ✨ Features
 
 - **Dynamic Campus Definition**: The program allows users to define campus locations and routes by reading instructions from an external file ("functions.txt").
 - **Optimal Route Calculation**: It employs the Floyd-Warshall algorithm to find the shortest path and total distance between any two locations on the campus.
@@ -35,7 +35,7 @@ The program uses numeric indices to represent different locations on the campus.
 - 4: 11th Block
 - 5: Food Court
 
-## File Structure
+## 📁 File Structure
 
 - **main.c**: Contains the main program logic, user interface, and the Floyd-Warshall algorithm implementation.
 - **functions.txt**: External file for defining locations and routes. Edit this file to customize the campus layout.
